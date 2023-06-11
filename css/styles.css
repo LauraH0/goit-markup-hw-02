@@ -1,0 +1,145 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway',sans-serif;
+    --text-color: #2E2F42;
+    --gray-background-color: #F4F4FD;
+    --primary-background-color: #fafafa;
+    --section-text-color: #434455; 
+    --primary-blue-color: #4D5AE5;
+    --white-color: #ffffff;
+    --button-color: #404BBF;
+
+
+    --primary-black-color: #212121;
+    --secondary-accent-color: #0288d1;
+    --active-link-color: #f44336; 
+}
+
+body {
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    background-color: var(--primary-background-color);
+}
+
+.logo {
+    color: var(--primary-blue-color);
+}
+
+.header-logo {
+    font-size: 18px;
+    color: currentColor;
+    font-family: var(--logo-font);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-link, .address-link {
+    color: currentColor;
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.header-link:hover {
+    color: var(--primary-blue-color);
+}
+
+.first-section {
+    background-color: var(--text-color);
+    color: var(--white-color);
+}
+
+.first-section-text {
+    font-size: 56px;
+}
+
+.first-section-button {
+    background-color: var(--primary-blue-color);
+    line-height: 1.5;
+    color: var(--white-color);
+}
+
+
+
+.over-list {
+    list-style-type: none;
+}
+
+.second-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.second-section-text {
+    color: var(--section-text-color);
+    line-height: 1.5;
+}
+
+.third-title {
+    font-size: 36px;
+}
+
+
+.fourd-title {
+    font-size: 36px;
+}
+
+.fourd-dop-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.fourd-text {
+    line-height: 1.5;
+    color: var(--section-text-color);
+}
+
+
+.section-title {
+    color: var(--primary-blue-color);
+    background-color: var(--gray-background-color);
+    border: 1px solid #E7E9FC;
+    cursor: pointer;
+}
+
+.section-title:hover {
+    background-color: var(--button-color);
+    color: var(--white-color);
+}
+
+.cart-link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-pages {
+    color: var(--section-text-color);
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+.footer-logo {
+    color: var(--gray-background-color);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: var(--logo-font);
+
+}
+
+.page-footer {
+    background-color: var(--text-color);
+    color: var(--gray-background-color);
+    line-height: 1.5;
+}
