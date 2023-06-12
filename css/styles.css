@@ -75,12 +75,25 @@ body {
 
 .first-section-text {
     font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .first-section-button {
     background-color: var(--primary-blue-color);
     line-height: 1.5;
     color: var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-family: var(--primary-font);
+    cursor: pointer;
+}
+
+.first-section-button:hover,
+.first-section-button:focus {
+    background-color: var(--button-color);
 }
 
 
