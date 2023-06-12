@@ -91,7 +91,7 @@ body {
 
 
 
-.over-list {
+.list {
     list-style-type: none;
 }
 
@@ -107,11 +107,21 @@ body {
 
 .third-title {
     font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--logo-color);
 }
 
 
 .fourd-title {
     font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--logo-color);
 }
 
 .fourd-dop-title {
@@ -159,16 +169,26 @@ body {
 
 
 .footer-logo {
-    color: var(--gray-background-color);
+    color: var(--primary-blue-color);
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
     font-family: var(--logo-font);
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
 
+.logos {
+    color: var(--gray-background-color);
 }
 
 .page-footer {
     background-color: var(--text-color);
     color: var(--gray-background-color);
     line-height: 1.5;
+}
+
+.paragraf {
+    letter-spacing: 0.02em
 }
