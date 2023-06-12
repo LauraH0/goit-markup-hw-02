@@ -183,6 +183,7 @@ letter-spacing: 0.02em;
 
 .section-title {
   color: var(--primary-blue-color);
+font-family: var(--primary-font);
   background-color: var(--gray-background-color);
   border: 1px solid #e7e9fc;
   cursor: pointer;
@@ -206,11 +207,15 @@ letter-spacing: 0.02em;
 .portfolio-title {
   font-size: 20px;
   line-height: 1.2;
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--logo-color);
 }
 
 .portfolio-pages {
   color: var(--section-text-color);
   line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .footer-logo {
