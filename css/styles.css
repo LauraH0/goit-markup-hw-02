@@ -77,6 +77,16 @@ body {
   color: var(--button-color);
 }
 
+.address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--section-text-color);
+}
+
+.address-link:hover {
+    color: var(--button-color);
+}
+
 .navigation {
   font-style: normal;
 }
@@ -110,7 +120,7 @@ body {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .second-title {
