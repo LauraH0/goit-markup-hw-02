@@ -19,13 +19,16 @@ body {
 
 .header-logo {
   color: var(--primary-blue-color);
-  text-decoration: none;
   font-size: 18px;
   font-family: var(--logo-font);
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .logo {
@@ -99,26 +102,33 @@ body {
 }
 
 .second-title {
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 20px;
+  line-height: 1.12;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-color);
+font-weight: 500;
+
 }
 
 .second-section-text {
   color: var(--section-text-color);
   line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .third-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-color);
+}
+
+.fourd {
+    background-color: var(--gray-background-color);
 }
 
 .fourd-title {
@@ -130,14 +140,22 @@ body {
   color: var(--logo-color);
 }
 
+.fourd-list {
+    background-color: var(--white-color);
+}
+
 .fourd-dop-title {
   font-size: 20px;
   line-height: 1.2;
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--logo-color);
 }
 
 .fourd-text {
   line-height: 1.5;
   color: var(--section-text-color);
+letter-spacing: 0.02em;
 }
 
 .section-title {
